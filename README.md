@@ -19,7 +19,7 @@
 
 ## :pencil2: Overview
 
-Learn how to use API (data fetching using Promise) with React.
+Create a blog that integrates Firebase and React.
 
 ## :hammer: Requirement
 
