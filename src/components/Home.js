@@ -1,4 +1,5 @@
 import React from "react";
+import "./Home.css";
 
 const Home = () => {
   return (
@@ -7,14 +8,14 @@ const Home = () => {
         <div className="postHeader">
           <h1>タイトル</h1>
         </div>
-      </div>
-      <div className="postTextConteiner">
-        テキスト テキスト テキスト テキスト テキスト テキスト テキスト テキスト
-        テキスト テキスト テキスト テキスト
-      </div>
-      <div className="nameAndDeleteButton">
-        <h3>@shumatsumoto</h3>
-        <button>削除</button>
+        <div className="postTextConteiner">
+          テキスト テキスト テキスト テキスト テキスト テキスト テキスト
+          テキスト テキスト テキスト テキスト テキスト
+        </div>
+        <div className="nameAndDeleteButton">
+          <h3>@shumatsumoto</h3>
+          <button>削除</button>
+        </div>
       </div>
     </div>
   );
